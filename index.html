@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First GitHub Site</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Rodrick’s First Site</h1>
+      <p>Built directly on GitHub ✨</p>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>About</h2>
+        <p>I’m learning GitHub UI, HTML, and CSS.</p>
+      </section>
+
+      <section class="card">
+        <h2>Goals</h2>
+        <ul>
+          <li>Understand GitHub repositories</li>
+          <li>Write clean HTML</li>
+          <li>Style with CSS</li>
+        </ul>
+      </section>
+
+      <a class="button" href="https://github.com/rodrick211225" target="_blank">
+        Visit my GitHub
+      </a>
+    </main>
+
+    <footer class="footer">
+      <small>© <span id="year"></span> Rodrick</small>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
